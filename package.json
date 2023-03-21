@@ -1,7 +1,7 @@
 {
-  "name": "clean-architecture-fastify-mongodb",
+  "name": "identity-master",
   "version": "1.0.0",
-  "description": "Project template using Clean Architecture in Typescript for building an API",
+  "description": "identity master",
   "main": "dist/main.js",
   "scripts": {
     "build": "node_modules/.bin/rimraf dist && tsc -p tsconfig-build.json",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@shelf/jest-mongodb": "^4.1.6",
     "@types/jest": "^29.4.0",
+    "@types/jsonwebtoken": "^9.0.1",
     "@types/node": "^18.14.2",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "eslint": "^8.35.0",
@@ -51,6 +52,7 @@
     "dotenv": "^16.0.3",
     "fastify": "^4.13.0",
     "fastify-plugin": "^4.5.0",
+    "jsonwebtoken": "^9.0.0",
     "module-alias": "^2.2.2",
     "mongoose": "^7.0.0"
   },
